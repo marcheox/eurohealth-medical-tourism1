@@ -1,8 +1,10 @@
 "use client";
 
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { useLanguage } from "@/contexts/LanguageContext";
+import { Card, CardContent } from "./ui/card";
+import { Button } from "./ui/button";
+import { useLanguage } from "../contexts/LanguageContext";
+
+// ... rest of the component stays the same
 
 export default function HeroSection() {
   const { t } = useLanguage();
