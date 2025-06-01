@@ -1,9 +1,13 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { useLanguage } from "@/contexts/LanguageContext";
+"use client";
+
+import { Button } from "./ui/button";
+import { useLanguage } from "../contexts/LanguageContext";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+
+// ... rest of the component stays the same
 
 export default function Header() {
   const { language, setLanguage, t } = useLanguage();
