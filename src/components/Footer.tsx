@@ -1,6 +1,6 @@
 "use client";
 
-import { useLanguage } from "@/contexts/LanguageContext";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -15,7 +15,7 @@ export default function Footer() {
               EuroHealth
             </div>
             <p className="text-gray-300 mb-4 text-sm">
-              {t.footer.description}
+              EuroHealth assists international patients seeking high-quality medical treatment in Turkey.
             </p>
           </div>
 
