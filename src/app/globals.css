@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --marus-primary: #137256;
+    --marus-primary-light: #4cd196;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.marus-gradient {
+  background: linear-gradient(135deg, var(--marus-primary) 0%, var(--marus-primary-light) 100%);
+}
